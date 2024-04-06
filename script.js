@@ -95,34 +95,34 @@ function scrollToTop() {
 // Ensure the DOM content is fully loaded before executing JavaScript
 document.addEventListener('DOMContentLoaded', function () {
 
+    // // Animate portfolio items
+    // gsap.from(".skill-container .right", {
+    //     opacity: 0,
+    //     duration: 3,
+    //     delay: 0.5,
+    //     stagger: 0.2,
+    //     scrollTrigger: {
+    //         trigger: ".skill-container", // Change trigger to the container of the portfolio items
+    //         start: "top 40%", // Adjust the start position as needed
+    //         end: "bottom 80%", // Adjust the end position as needed
+    //         scrub: 2, // Adjust the scrub value as needed
+    //         // markers: true // Remove this line if you don't want markers for debugging
+    //     }
+    // });
     // Animate portfolio items
-    gsap.from(".skill-container .right", {
-        opacity: 0,
-        duration: 5,
-        delay: 1,
-        stagger: 0.2,
-        scrollTrigger: {
-            trigger: ".skill-container", // Change trigger to the container of the portfolio items
-            start: "top 40%", // Adjust the start position as needed
-            end: "bottom 80%", // Adjust the end position as needed
-            scrub: 2, // Adjust the scrub value as needed
-            // markers: true // Remove this line if you don't want markers for debugging
-        }
-    });
-    // Animate portfolio items
-    gsap.from(".skill-container .left", {
-        opacity: 0,
-        duration: 20,
-        delay: 1,
-        stagger: 0.2,
-        scrollTrigger: {
-            trigger: ".skill-container", // Change trigger to the container of the portfolio items
-            start: "top 40%", // Adjust the start position as needed
-            end: "bottom 80%", // Adjust the end position as needed
-            scrub: 4, // Adjust the scrub value as needed
-            // markers: true // Remove this line if you don't want markers for debugging
-        }
-    });
+    // gsap.from(".skill-container .left", {
+    //     opacity: 0,
+    //     duration: 20,
+    //     delay: 1,
+    //     stagger: 0.2,
+    //     scrollTrigger: {
+    //         trigger: ".skill-container", // Change trigger to the container of the portfolio items
+    //         start: "top 40%", // Adjust the start position as needed
+    //         end: "bottom 80%", // Adjust the end position as needed
+    //         scrub: 4, // Adjust the scrub value as needed
+    //         // markers: true // Remove this line if you don't want markers for debugging
+    //     }
+    // });
     // Animate portfolio items
     gsap.from(".portfolio-container .project-item", {
         opacity: 0,
