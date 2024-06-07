@@ -606,3 +606,20 @@ footer {
         width: 100%;
     }
 }
+
+
+
+/* Whatsapp button */
+.whatsapp-btn{
+    width: 5%;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 10;
+}
+@media (max-width:1000px) {
+    .whatsapp-btn{
+        width: 15%;
+        right: 25px;
+    }
+}
