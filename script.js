@@ -1,7 +1,7 @@
 // typing js
 
 var typed = new Typed('#element', {
-    strings: ["MERN Stack Developer", "UX/UI Designer"],
+    strings: ["Software Engineer","MERN Stack Developer"],
     typeSpeed: 90,
     backSpeed: 70,
     loop: true

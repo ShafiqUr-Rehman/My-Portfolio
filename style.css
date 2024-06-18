@@ -609,7 +609,8 @@ footer {
 
 
 
-/* Whatsapp button */
+/* Whatsapp button styling*/
+
 .whatsapp-btn{
     width: 5%;
     position: fixed;
@@ -617,6 +618,8 @@ footer {
     bottom: 80px;
     z-index: 10;
 }
+
+/* .whatsapp-btn responsiveness styling */
 @media (max-width:1000px) {
     .whatsapp-btn{
         width: 15%;
